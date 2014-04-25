@@ -1,6 +1,9 @@
 # author: skierdude101
 length = 100
 angle = 60
+spiral=10
+line=1
+cats=[1,2,3,4,5]
 import turtle
 
 jose = turtle.Turtle()
@@ -15,15 +18,7 @@ jose = turtle.Turtle()
 
 jose.color("red")
 
-jose.forward(length)
-jose.left(angle)
-jose.forward(length)
-jose.left(angle)
-jose.forward(length)
-jose.left(angle)
-jose.forward(length)
-jose.left(angle)
-jose.forward(length)
-jose.left(angle)
-jose.forward(length)
-jose.left(angle)
+for cat in cats:
+	jose.forward(100)
+	jose.left(72)
+	
