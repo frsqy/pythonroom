@@ -1,10 +1,10 @@
 # author: skierdude101
-length = 50
-n=6
+length = 30
+n=18
 angle = 180-180*(n-2)/n
 spiral=10
 line=1
-colors = ["red","orange","yellow","green","blue","magenta"]
+colors = ["red","orange","yellow","green","blue","magenta","red","orange","yellow","green","blue","magenta","red","orange","yellow","green","blue","magenta"]
 cats=range(0,n)
 import turtle
 
