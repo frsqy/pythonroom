@@ -1,9 +1,10 @@
 # author: skierdude101
-length = 100
-n=180
+length = 50
+n=6
 angle = 180-180*(n-2)/n
 spiral=10
 line=1
+colors = ["red","orange","yellow","green","blue","magenta"]
 cats=range(0,n)
 import turtle
 
@@ -19,7 +20,8 @@ jose = turtle.Turtle()
 
 jose.color("red")
 
-for cat in cats:
-	jose.forward(2)
+for color in colors:
+	jose.color(color)
+	jose.forward(length)
 	jose.left(angle)
 	
