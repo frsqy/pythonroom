@@ -1,13 +1,13 @@
 import turtle
 bob = turtle.Turtle()
-a = turtle.Turtle
-b = turtle.Turtle
-c = turtle.Turtle
-d = turtle.Turtle
-e = turtle.Turtle
-f = turtle.Turtle
-g = turtle.Turtle
-turtles=[bob,a,b,c,d,e,f,g]
+a = turtle.Turtle()
+b = turtle.Turtle()
+c = turtle.Turtle()
+d = turtle.Turtle()
+e = turtle.Turtle()
+f = turtle.Turtle()
+g = turtle.Turtle()
+#turtles=[bob,a,b,c,d,e,f,g]
 #bob.speed(1)
 #bob.setpos(-200,-200)
 #bob.setpos(-100,100)
@@ -21,6 +21,29 @@ numbers= range(1,1000,10)
 colors=["00FFF7","00FF00","FF70D2","FF2424","3124E6"]
 pentagon=72
 pentalength=50
+
+for number in numbers:
+	for color in colors:
+		bob.color(color)
+		a.color(color)
+		b.color(color)
+		c.color(color)
+		d.color(color)
+		e.color(color)
+		f.color(color)
+		g.color(color)
+		bob.forward(number)
+		a.forward(number)
+		b.forward(number)
+		c.forward(number)
+		d.forward(number)
+		e.forward(number)
+		f.forward(number)
+		g.forward(number)
+		bob.left(72)
+	bob.left(10)
+	
+	
 
 #fail
 #for number in numbers:
