@@ -21,26 +21,31 @@ numbers= range(1,1000,10)
 colors=["00FFF7","00FF00","FF70D2","FF2424","3124E6"]
 pentagon=72
 pentalength=50
-for turtle in turtles:
-	for number in numbers:
-		for color in colors:
-			bob.color(color)
-			bob.forward(number)
-			bob.left(pentagon)
-			a.color(color)
-			a.forward(number)
-			a.left(pentagon)
-			b.color(color)
-			b.forward(number)
-			b.left(pentagon)
-			c.color(color)
-			c.forward(number)
-			c.left(pentagon)
-			d.color(color)
-			d.forward(number)
-			d.left(pentagon)
-		bob.left(10)
 
+#fail
+#for number in numbers:
+#	for color in colors:
+#		bob.color(color)
+#		bob.forward(number)
+#		bob.left(pentagon)
+#		a.color(color)
+#		a.forward(number)
+#		a.left(pentagon)
+#		b.color(color)
+#		b.forward(number)
+#		b.left(pentagon)
+#		c.color(color)
+#		c.forward(number)
+#		c.left(pentagon)
+#		d.color(color)
+#		d.forward(number)
+#		d.left(pentagon)
+
+
+#for number in numbers:
+#	bob.forward(200)
+#	bob.left(177)
+	
 
 		
 		
@@ -49,6 +54,3 @@ for turtle in turtles:
 #		bob.color(color)
 #		bob.forward(number)
 #		bob.left(number)
-
-	
-	
