@@ -1,0 +1,21 @@
+import random
+
+answer=random.randint(1,100)
+chances = 10
+numbers=range(1,5)
+
+for i in range(chances):
+	#ask for a new guess
+	#print how many chances are left
+	#print if the guess is too high, low, or equal to the answer
+	x = int(input('guess a number'))
+	print 'you have ' + str(chances - i) + ' guesses left'
+	if x > answer:
+		print 'your answer is too high'
+		#chances=chances-1
+	elif x < answer:
+		print 'your answer is too low'
+		#chances=chances-1
+	else:
+		print 'correct!'
+		break
