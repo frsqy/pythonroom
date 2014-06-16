@@ -1,0 +1,5 @@
+def rotate_two(word):
+	return word[2:len(word):] + word[0:2]
+	
+
+print rotate_two('abcde')
