@@ -1,0 +1,14 @@
+import turtle
+joe=turtle.Turtle()
+turn=90
+x=0
+joe.speed(10)
+numbers=range(1,1000,5)
+cats=range(0,4)
+colors=['blue','red','magenta','green']
+for number in numbers:
+	for color in colors:
+		joe.color(color)
+		joe.forward(number)
+		joe.left(turn)
+	joe.left(90)
